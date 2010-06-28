@@ -1,0 +1,23 @@
+---
+abstract: 'guess C++ compiler and flags'
+author:
+  - 'Mattia Barbon <mbarbon@cpan.org>'
+  - 'Steffen Mueller <smueller@cpan.org>'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3605'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ExtUtils-CppGuess
+provides:
+  ExtUtils::CppGuess:
+    file: lib/ExtUtils/CppGuess.pm
+    version: 0.01
+requires:
+  Capture::Tiny: 0
+  File::Basename: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
