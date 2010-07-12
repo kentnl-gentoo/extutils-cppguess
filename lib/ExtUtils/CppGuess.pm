@@ -107,7 +107,7 @@ use Config ();
 use File::Basename qw();
 use Capture::Tiny 'capture_merged';
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub new {
     my( $class, %args ) = @_;
@@ -127,14 +127,6 @@ sub guess_compiler {
         $self->_guess_win32() or return();
     } else {
         $self->_guess_unix() or return();
-    }
-
-    if (defined $self->{extra_compiler_flags}) {
-        $self->{guess}{extra_cflags} .= ' ' . $self->{extra_compiler_flags};
-    }
-
-    if (defined $self->{extra_linker_flags}) {
-        $self->{guess}{extra_lflags} .= ' ' . $self->{extra_linker_flags};
     }
 
     return $self->{guess};

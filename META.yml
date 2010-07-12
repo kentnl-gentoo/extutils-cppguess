@@ -16,10 +16,10 @@ name: ExtUtils-CppGuess
 provides:
   ExtUtils::CppGuess:
     file: lib/ExtUtils/CppGuess.pm
-    version: 0.03
+    version: 0.04
 requires:
   Capture::Tiny: 0
   File::Basename: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
