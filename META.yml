@@ -7,7 +7,7 @@ build_requires:
   Module::Build: 0
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+generated_by: 'Module::Build version 0.3624'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,10 +16,10 @@ name: ExtUtils-CppGuess
 provides:
   ExtUtils::CppGuess:
     file: lib/ExtUtils/CppGuess.pm
-    version: 0.05
+    version: 0.06
 requires:
   Capture::Tiny: 0
   File::Basename: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.05
+version: 0.06
