@@ -1,12 +1,10 @@
 {
-   "abstract" : "guess C++ compiler and flags",
+   "abstract" : "unknown",
    "author" : [
-      "Mattia Barbon <mbarbon@cpan.org>",
-      "Steffen Mueller <smueller@cpan.org>",
-      "Tobias Leich <froggs@cpan.org>"
+      "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4205",
+   "generated_by" : "ExtUtils::MakeMaker version 7.052, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -15,15 +13,21 @@
       "version" : "2"
    },
    "name" : "ExtUtils-CppGuess",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.42"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
@@ -36,6 +40,7 @@
          "requires" : {
             "Capture::Tiny" : "0",
             "Cwd" : "0",
+            "Data::Dumper" : "0",
             "ExtUtils::MakeMaker" : "0",
             "ExtUtils::Manifest" : "0",
             "Fatal" : "0",
@@ -45,20 +50,14 @@
          }
       }
    },
-   "provides" : {
-      "ExtUtils::CppGuess" : {
-         "file" : "lib/ExtUtils/CppGuess.pm",
-         "version" : "0.08"
-      }
-   },
    "release_status" : "stable",
    "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
       "repository" : {
-         "url" : "git://github.com/tsee/extutils-cppguess"
+         "type" : "git",
+         "url" : "git://github.com/tsee/extutils-cppguess",
+         "web" : "https://github.com/tsee/extutils-cppguess"
       }
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }
+

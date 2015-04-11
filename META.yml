@@ -1,12 +1,11 @@
 ---
-abstract: 'guess C++ compiler and flags'
+abstract: unknown
 author:
-  - 'Mattia Barbon <mbarbon@cpan.org>'
-  - 'Steffen Mueller <smueller@cpan.org>'
-  - 'Tobias Leich <froggs@cpan.org>'
+  - unknown
 build_requires:
   Capture::Tiny: '0'
   Cwd: '0'
+  Data::Dumper: '0'
   ExtUtils::MakeMaker: '0'
   ExtUtils::Manifest: '0'
   Fatal: '0'
@@ -14,22 +13,22 @@ build_requires:
   Module::Build: '0'
   Test::More: '0'
 configure_requires:
-  Module::Build: '0.42'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.143240'
+generated_by: 'ExtUtils::MakeMaker version 7.052, CPAN::Meta::Converter version 2.150001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: ExtUtils-CppGuess
-provides:
-  ExtUtils::CppGuess:
-    file: lib/ExtUtils/CppGuess.pm
-    version: '0.08'
+no_index:
+  directory:
+    - t
+    - inc
 requires:
   Capture::Tiny: '0'
   File::Basename: '0'
 resources:
-  license: http://dev.perl.org/licenses/
   repository: git://github.com/tsee/extutils-cppguess
-version: '0.08'
+version: '0.09'
+
