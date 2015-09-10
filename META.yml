@@ -30,4 +30,4 @@ requires:
   File::Basename: '0'
 resources:
   repository: git://github.com/tsee/extutils-cppguess
-version: '0.10'
+version: '0.11'
